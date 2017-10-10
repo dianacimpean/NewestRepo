@@ -1,6 +1,6 @@
 html {
     font-family: helvetica, arial, sans-serif;
-    background: #d7e3e5;
+    background: slategray;
     text-align: center;
 }
 head {
@@ -11,15 +11,20 @@ main {
     display: block;
 }
 
+.elements{
+    max-width: 1400;
+    margin: 0 auto;
+}
+
 body {
     font-size: 100%;
     font-family: helvetica, arial, sans-serif;
     display: block;
 }
 h1{
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 30px;
-    color: cadetblue;
+    color:azure;
 }
 #elements {
    display: block;
@@ -27,40 +32,43 @@ h1{
 .row {
     display: flex;
     text-align: center;
-    height: 6vmin; 
 }
 .content {
-    background-color: #619691;
+    background-color: antiquewhite;
     display: flex;
+    float: left;
     font-weight: bold;
     justify-content: center;
     align-items: center;
-    flex: auto;
     color: black;
-    box-sizing: border-box;
     border-radius: 2px;
     margin: 1px;
-    text-decoration: none;
+    width: 5.40%;
 }
 
 .empty {
     background: transparent;
-    background-color: #d7e3e5;
+    background-color: slategray;
     display: flex;
+    float: left;
     flex: auto;
     border: none;
     text-decoration: none;
+    width: 5.53%;
 }
 
 #symbol {
     font-size: 18px;
+    text-align: center;
 }
 
 #number {
     color: azure;
-    font-size: 6px;
+    font-size: 8px;
     position: relative;
-    opacity: 1;
+    text-align-last: center;
+    top: 20px;
+    right: 13px;
 }
 
 name {
